@@ -1,3 +1,4 @@
+
 #sidebar {
 
 }
@@ -7,5 +8,23 @@
 }
 
 #notifications {
+
+}
 	
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.carousel-inner .item {
+	max-height: 250px;
+	overflow: hidden;
+}
+
+.carousel-inner .item .carousel-caption {
+	font-size: 20pt;
+}
+
+.carousel-inner .item  img {
+	margin-top: -70px;
 }
