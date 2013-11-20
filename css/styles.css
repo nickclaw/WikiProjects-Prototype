@@ -39,4 +39,7 @@
 .jumbotron {
 	margin-bottom: 0px;
 	background-color:white;
+
+.nav {
+	float: left;
 }
