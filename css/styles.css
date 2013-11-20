@@ -11,3 +11,7 @@
 .carousel-inner .item .carousel-caption {
 	font-size: 20pt;
 }
+
+.carousel-inner .item  img {
+	margin-top: -70px;
+}
