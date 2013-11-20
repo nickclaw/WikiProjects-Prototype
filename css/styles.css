@@ -28,3 +28,7 @@
 .carousel-inner .item  img {
 	margin-top: -70px;
 }
+
+.nav {
+	float: left;
+}
