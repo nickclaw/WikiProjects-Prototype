@@ -17,14 +17,186 @@
 	</head>
 
 	<body>
-		<table class="table">
-			<tr>
-				<th>Points</th>
-				<th>Privilege</th>
-				<th>Explanation</th>
-			</tr>
-		</table>
+		<div id="container">
+			<div id="title" class="jumbotron">
+				<span class="user-account"><a href="user.html"><img src="img/user.png" alt="user">David McDonald</a><span id="points-display">648pts</span></span>
+				<a href="index.html"><img src="http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" /></a>
+				<h1>WikiProject United States</h1>
+			</div>
 		
+
+			<div id="content">
+				<div class="row">
+					<div id="side" class="col-md-2">
+						<h3>Navigation</h3>
+
+						<ul class="nav nav-pills nav-stacked">
+							  <li><a href="index.html">Home</a></li>
+							  <li><a href="forum.html">Forum</a></li>
+							  <li><a href="categories.html">Categories</a></li>
+							  <li><a href="relatedProjects.html">Related Projects</a></li>
+						</ul>
+
+						<ul class="nav nav-pills nav-stacked">
+							<li><a data-toggle="collapse" data-parent="#side" href="#interaction">Interaction</a></li>
+						</ul>
+						<ul id="interaction" class="sub nav nav-pills nav-stacked collapse">
+							<li><a href="">Help</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Community</a></li>
+							<li><a href="">Recent Changes</a></li>
+							<li><a href="">Contact Us</a></li>
+						</ul>
+
+						<ul class="nav nav-pills nav-stacked">
+							<li><a data-toggle="collapse" data-parent="#side" href="#tools">Tools</a></li>
+						</ul>
+
+						<ul id="tools" class="sub nav nav-pills nav-stacked collapse">
+							<li><a href="">Link to here</a></li>
+							<li><a href="">Related changes</a></li>
+							<li><a href="">Upload file</a></li>
+							<li><a href="">Special pages</a></li>
+							<li><a href="">Permalink</a></li>
+						</ul>
+
+						<ul class="nav nav-pills nav-stacked">
+							<li><a data-toggle="collapse" data-parent="#side" href="#langs">Languages</a></li>
+						</ul>
+
+						<ul id="langs" class="sub nav nav-pills nav-stacked collapse">
+							<li><a href="">Deutsch</a></li>
+							<li><a href="">Español</a></li>
+							<li><a href="">Italiano</a></li>
+							<li><a href="">Polski</a></li>
+							<li><a href="">More</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-8 center-content user-content">
+						<h2>User Information</h2>
+						<div class="row">
+							<div class="col-md-3">
+								<img src="img/user.png" alt="">
+								<h4>David McDonald</h4>
+								<h4>Points:</h4> <span>648</span>
+							</div>
+							<div class="col-md-4">
+								<h3>Information:</h3>
+								<p>Name: David McDonald</p>
+								<p>Background: Teacher at the University of Washington for the Department of Informatics.</p>
+								<p>Age: 25</p>
+								<p>Website: <a href="">McDonald.com</a></p>
+								<p>Status: Online</p>
+							</div>
+							<div class="col-md-5">
+								<h3>Recent Points:</h3>
+								<div class="row">
+									<div class="col-md-9">
+										<p>Edited page: Football</p>
+										<p>Edited page: Seattle</p>
+										<p>Created page: Twerking</p>
+										<p>Merged pages: Finances and Economics</p>
+									</div>
+									<div class="col-md-3">
+										<p>+5</p>
+										<p>+5</p>
+										<p>+20</p>
+										<p>+10</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<h2>Privileges</h2>
+						<table class="table">
+							<tr>
+								<th></th>
+								<th>Required Points</th>
+								<th>Privelege</th>
+								<th>Explanation</th>
+							</tr>
+							<tr>
+								<td><img src="img/x.png" alt="check"></td>
+								<td>2500</td>
+								<td>Administrator</td>
+								<td>Become an administrator for WikiProject United States. Help moderate content and users.</td>
+							</tr>
+							<tr>
+								<td><img src="img/x.png" alt="check"></td>
+								<td>1000</td>
+								<td>Create Project Page</td>
+								<td>Create a new WikiProject United States page that you think needs to be implemented.</td>
+							</tr>
+							<tr>
+								<td><img src="img/check.png" alt="check"></td>
+								<td>500</td>
+								<td>Edit Project Page</td>
+								<td>Make changes to a WikiProject United States page.</td>
+							</tr>
+							<tr>
+								<td><img src="img/check.png" alt="check"></td>
+								<td>100</td>
+								<td>Vote</td>
+								<td>Vote articles up/down. Also vote on what content should be featured.</td>
+							</tr>
+							<tr>
+								<td><img src="img/check.png" alt="check"></td>
+								<td>50</td>
+								<td>Create Article</td>
+								<td>Create a new Wiki article.</td>
+							</tr>
+							<tr>
+								<td><img src="img/check.png" alt="check"></td>
+								<td>1</td>
+								<td>Edit Article</td>
+								<td>Make changes to any Wiki article.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-md-2">
+						<h3>Notifications</h3>
+						<ul class="list-group">
+							<li class="list-group-item">
+						    	<span class="badge">3</span>
+						    	Chat
+						  	</li>
+							<li class="list-group-item">
+						    	<span class="badge">7</span>
+						    	Edits
+						  	</li>
+						  	<li class="list-group-item">
+						    	<span class="badge">1</span>
+						    	News
+						  	</li>
+						</ul>
+						<a href="">View all notifications</a>
+
+						<h3>Tasks</h3>
+						<span>Edit "Bald Eagles" habitat section</span>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								<span class="sr-only">90% Complete (success)</span>
+							</div>
+						</div>
+						<span>Create "Twerking" Article</span>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+								<span class="sr-only">40% Complete (success)</span>
+							</div>
+						</div>
+						<span>Combine similar "US economics" articles</span>
+						<div class="progress progress-small-mar">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+								<span class="sr-only">60% Complete (success)</span>
+							</div>
+						</div>
+						<a href="">View all tasks</a>
+						<a href="">Create/Assign task</a>
+					</div>
+				</div>
+			</div> <!-- End of Content -->
+		</div> <!-- End of Container -->		
 	</body>
 
 </html>
