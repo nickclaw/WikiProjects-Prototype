@@ -156,3 +156,10 @@ img[alt="check"] {
 .panel.no-margin:not(:last-child) {
 	border-bottom: 0px;
 }
+
+.profile:hover:after {
+	content: "Username";
+	display: block;
+	position: absolute;
+	height: 20px;
+}
