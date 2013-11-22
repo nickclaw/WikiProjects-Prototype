@@ -142,3 +142,24 @@ img[alt="check"] {
 .user-content h4 {
 	display: inline;
 }
+
+.panel.no-margin {
+	margin: 0px;
+	border-radius: 0px;
+	box-shadow: none !important;
+}
+
+.panel.no-margin .panel-heading {
+	border-radius: 0px;
+}
+
+.panel.no-margin:not(:last-child) {
+	border-bottom: 0px;
+}
+
+.profile:hover:after {
+	content: "Username";
+	display: block;
+	position: absolute;
+	height: 20px;
+}
